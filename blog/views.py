@@ -8,7 +8,7 @@ posts =[
         'date_posted' : 'March 19 , 2023',
     },
     {
-        'author' : 'Silverter Stalone',
+        'author' : 'Jean-Claude Van Damme',
         'title' : 'Post 2',
         'content' : 'No coment :)',
         'date_posted' : 'March 19 , 2023',
