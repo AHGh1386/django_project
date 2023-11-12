@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-# 'crispy_bootstrap5',
+
 INSTALLED_APPS = [
     'crispy_forms',
     'users.apps.UsersConfig',
@@ -126,6 +126,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
+CRISPY_ALLOWED_TEMPLATE_PACK = 'bootstrap5'
 
 LOGIN_REDIRECT_URL = "blog-home"
 LOGIN_URL = 'login'
