@@ -1,7 +1,6 @@
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,8 +11,13 @@ ul {
   margin: 0;
 }
 
+.container{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
 .bg-steel {
-  background-color: #26445a;
+  background-color: #0d4e7d;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -21,16 +25,16 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #26fe31;
+  color: #e92918;
 }
 
 .site-header .navbar-nav .nav-link.active {
   font-weight: 500;
 }
 
-/* .nav-right{
+.nav-right{
     margin-left: auto;
-} */
+}
 
 .content-section {
   background: #ffffff;
